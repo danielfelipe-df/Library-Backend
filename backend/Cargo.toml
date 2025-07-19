@@ -3,9 +3,12 @@ name = "LibraryProject"
 version = "0.1.0"
 edition = "2021"
 
+
 [dependencies]
+actix-web = "4"
+tokio = { version = "1", features = ["full"] }
 
 
 [[bin]]
 name = "LibraryProject"
-path= "main.rs"
+path= "app.rs"
